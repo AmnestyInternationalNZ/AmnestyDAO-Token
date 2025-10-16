@@ -1,0 +1,64 @@
+name: Continuous Integration
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    tags: ["*.*.*"]
+  pull_request:
+    branches: ["main"]
+
+env:
+  CARGO_TERM_COLOR: always
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🧰 Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: 🧰 Install Aiken
+        uses: aiken-lang/setup-aiken@v1.0.3
+        with:
+          version: v1.1.17
+
+      - name: 📝 Run fmt
+        run: aiken fmt --check
+
+      - name: 🔬 Run tests
+        run: aiken check
+
+      - name: 📘 Generate documentation
+        shell: bash
+        working-directory: .
+        run: aiken docs -o docs
+
+      - name: 📦 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "docs/"
+
+  deploy:
+    if: ${{ startsWith(github.ref, 'refs/tags') }}
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
