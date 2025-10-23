@@ -93,11 +93,10 @@ Run all tests:
 aiken check
 ```
 
-Run matching tests only:
+You should see something like this 
 
-```sh
-aiken check -m <pattern>
-```
+<img width="948" height="759" alt="image" src="https://github.com/user-attachments/assets/f7c2a072-6d99-4804-9d5f-f548554de640" />
+
 
 ### Configuration
 
