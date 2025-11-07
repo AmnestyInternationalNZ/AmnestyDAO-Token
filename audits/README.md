@@ -1,19 +1,19 @@
 # Milestone 2 Audits
 This folder stores external technical audits, reviewer responses, and verification notes for Amnesty HRDAO (Project Catalyst #1300018).
 
-# 🧩 Amnesty Human Rights DAO – Milestone 2 External Audits  
+# Amnesty Human Rights DAO – Milestone 2 External Audits  
 **Project Catalyst ID 1300018**  
 **Milestone 2: Tokenomics Modelling & Simulation**
 
 ---
 
-## 📘 Overview  
+## Overview  
 This folder contains the independent technical audits, verification notes, and responses for **Milestone 2** of the Amnesty Human Rights DAO (HRDAO) project.  
 The audits confirm that the dual-token architecture (HRT-UTL + HRT-GOV), smart-contract logic, and tokenomics simulations meet Catalyst acceptance criteria for **accuracy, security, scalability, and transparency**.
 
 ---
 
-## 🔍 Audit Files  
+## Audit Files  
 
 | File | Author / Role | Date | Summary |
 |------|----------------|------|----------|
@@ -23,7 +23,7 @@ The audits confirm that the dual-token architecture (HRT-UTL + HRT-GOV), smart-c
 
 ---
 
-## ✅ Audit Summary  
+## Audit Summary  
 
 - **Zero critical or major vulnerabilities.**  
 - All contracts executed as intended under Aiken framework tests.  
@@ -35,5 +35,5 @@ The audits confirm that the dual-token architecture (HRT-UTL + HRT-GOV), smart-c
 
 ---
 
-## 🗂️ Repository Structure  
+
 
