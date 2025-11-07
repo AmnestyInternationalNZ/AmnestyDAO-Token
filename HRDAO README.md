@@ -79,7 +79,17 @@ To build a decentralized, ethical, and participatory system that:
 - Token design architecture (HRT-UTL and HRT-GOV)  
 - Alignment with Cardano’s CIP-1694 and Voltaire roadmap  
 
-### 🔜 Milestone 2 - In Progress
+### 🔜 Milestone 2 
+
+## 📘 Milestone 2 – Tokenomics Model & Technical Reports
+This milestone documents the full design and testing of the core smart contracts for the AmnestyDAO governance system and Human Rights Token rewards.
+
+The complete Milestone 2 evidence package—including the Tokenomics Model, Technical Report, and Reviewer Briefing Note—is available here:  
+➡️ [Tokenomics Model and Technical Report ›](./Tokenomics%20Model%20and%20Technical%20Report/README.md)
+
+External technical audits confirming these results can be found here:  
+➡️ [Audits ›](./audits/README.md)
+
 
 - MVP prototyping in Taiwan, Thailand, Aotearoa, and Australia  
 - Tokenomics simulation, identity onboarding, and narrative badges  
