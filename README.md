@@ -1,52 +1,11 @@
-
-# AmnestyDAO – Human Rights DAO (HRDAO)
-
-## Milestone 3 – MVP and Testing Validation
-
-This repository contains the AmnestyDAO MVP and supporting artefacts delivered under Project Catalyst Milestone 3.
-
-It includes:
-
-* Full MVP application (frontend and backend)
-* End-to-end (E2E) testing suite
-* Load and performance testing results
-* Baseline security review and findings
-* Functional validation and UX documentation
-
-The MVP has been deployed and tested with a pilot group of Amnesty participants across multiple regions. Testing outputs and validation reports are included within this repository.
-
-## Repository Structure
-
-* `/app` – Core application (frontend, backend, API)
-* `/e2e` – End-to-end testing suite
-* `/load-tests` – Performance and load testing scripts and results
-* `/docs` – Functional validation, UX flows, and supporting documentation
-* `/HRDAO README.md` – Full project overview and research context
-
-## Project Context
-
-This project explores how decentralised governance systems can be applied within a global human rights movement, enabling supporters to:
-
-* Create and vote on proposals
-* Receive and allocate tokens based on participation
-* Engage in transparent, participatory governance processes
-
-## Status
-
-Milestone 3 complete – MVP delivered and validated. Further work will focus on security hardening, scalability, and preparation for wider deployment.
-
-## Project Outputs (Milestones 1–3)
-
-This repository contains the full outputs of the AmnestyDAO Catalyst project:
-
-* **Milestone 1 – Research & Governance Design**
-  Whitepaper and analysis of decentralised governance models for human rights systems.
-
-* **Milestone 2 – Tokenomics Modelling & Simulation**
-  Human Rights Token (HRT) design, simulation outputs, and economic modelling documentation.
-
-* **Milestone 3 – MVP Development & Testing**
-  Functional DAO prototype with end-to-end testing, load testing, and baseline security validation.
-
-Together, these outputs establish a complete foundation for a scalable Human Rights DAO, combining governance theory, economic design, and working technical implementation.
-
+Before starting
+Sign in to GitHub using an account with Write or Admin access to the AmnestyInternationalNZ repository.
+Steps
+1. Open the correct new README: From the repository Code page, select Human Rights DAO-README.md.
+2. Copy its full contents: Select Raw, or use the pencil icon to edit the file. Copy all Markdown text from the editing area. Do not copy the GitHub page header or filename.
+3. Replace the root README: Return to the Code page, open README.md, and select the pencil icon labelled Edit this file. Select all existing text in the editor and paste in the copied institutional README.
+4. Commit the replacement: Select Commit changes. Use the commit message: “Replace root README with institutional HRDAO overview”. Commit directly to main for this small correction, unless Amnesty policy requires a branch and pull request.
+5. Delete the duplicate file: Open Human Rights DAO-README.md again, select the three-dot menu or trash/delete option, and delete the file. Commit with: “Remove duplicate README after root replacement”.
+6. Verify the repository homepage: Return to the main repository page and refresh. The displayed README should now begin with “Human Rights DAO” and describe the completed four-milestone pilot. It should no longer begin with “Milestone 3 – MVP and Testing Validation”.
+Important
+Do not delete HRDAO README.md as part of this correction. That is a separate legacy project overview. Only Human Rights DAO-README.md becomes redundant once its content has replaced the root README.md.
